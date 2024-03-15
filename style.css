@@ -31,7 +31,7 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   max-width: 600px;
-  min-width: 390px;
+  min-width: 377px;
   margin: 0 auto;
 }
 
@@ -76,9 +76,9 @@ h2 {
 .input-student {
   border-color: #6a1cc3;
   border-radius: 0.1rem;
-  border-width: 0.11rem;
+  border-width: 0.12rem;
   margin: 1rem auto 1rem auto;
-  min-width: 328px;
+  min-width: 327px;
   position: relative;
   margin-top: 0;
   height: 2rem;
@@ -92,6 +92,7 @@ h2 {
 }
 
 .input-wrapper {
+  display: block;
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
@@ -100,7 +101,7 @@ h2 {
 select {
   border-color: #6a1cc3;
   border-radius: 0.1rem;
-  border-width: 0.11rem;
+  border-width: 0.12rem;
   height: 2rem;
   font-family: "Source-Sans-3";
   color: #6a1cc3;
@@ -108,13 +109,13 @@ select {
 }
 
 .class-select {
-  min-width: 182px;
+  min-width: 184px;
   margin-right: 0.61rem;
   margin-bottom: 1rem;
 }
 
 .time-model-select {
-  min-width: 131px;
+  min-width: 129px;
 }
 
 h3 {
@@ -132,6 +133,7 @@ h3 ~ p {
   position: relative;
   box-shadow: 3px 3px 0 1px #6a1cc3;
   color: #6a1cc3;
+  margin-right: 0.6rem;
 }
 
 a {
